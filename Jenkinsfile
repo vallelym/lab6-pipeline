@@ -1,13 +1,13 @@
-echo 'pipeline {
+pipeline {
     agent any
     stages {
         stage("Hello") {
             steps {
-                sh "echo Hello Jenkins"
+                sh "echo Hello World"
             }
         }
     }
 }' > Jenkinsfile
 git add Jenkinsfile
-git commit -m "Update Jenkinsfile"
+git commit -m "Fix Jenkinsfile syntax"
 git push
