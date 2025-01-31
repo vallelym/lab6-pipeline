@@ -7,7 +7,4 @@ pipeline {
             }
         }
     }
-}' > Jenkinsfile
-git add Jenkinsfile
-git commit -m "Fix Jenkinsfile syntax"
-git push
+}
